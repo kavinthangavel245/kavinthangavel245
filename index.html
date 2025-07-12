@@ -2,163 +2,129 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | T. Kavin</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <!-- nav -->
-    <nav>
-        <div class="left">
-            <a href="/">T.KAVIN</a>
+  <!-- Navigation -->
+  <nav>
+    <div class="left">
+      <a href="/">T.KAVIN</a>
+    </div>
+    <div class="right">
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i><span>GitHub</span>
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
+      </a>
+      <a href="mailto:kavinthangavel245@gmail.com">
+        <i class="fa-solid fa-envelope"></i><span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>I'm Kavin</h2>
+        <p>
+          I'm a Front-End Developer passionate about building clean and modern websites.
+          I enjoy turning ideas into reality using HTML, CSS, JavaScript & React.
+          Let’s build something awesome together! 🚀
+        </p>
+        <div class="links">
+          <a href="#skills"><i class="fa-solid fa-code"></i><span>Skills</span></a>
+          <a href="#testimony"><i class="fa-solid fa-pen"></i><span>Testimony</span></a>
+          <a href="#contact"><i class="fa-solid fa-address-book"></i><span>Contact</span></a>
         </div>
-        <div class="right">
-            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-github"></i>
-                <span>Github</span>
-            </a>
-            <a href="http://LinkedeIn.com" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-linkedin"></i>
-                <span>LinkedeIn</span>
-            </a>
-            <a href="mailto:kavinthangavel245@gmail.com">
-                <i class="fa-solid fa-envelopes-bulk"></i>
-                <span>Email</span>
-            </a>
+      </div>
+      <div class="headshot">
+        <img src="./assets/kavin.jpg" width="300" height="300" alt="Portrait of Kavin" />
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        <p>
+          I specialize in responsive, interactive front-end development. Below are the technologies I work with.
+        </p>
+      </div>
+      <div class="cells">
+        <div class="cell"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+        <div class="cell"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+        <div class="cell"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+        <div class="cell"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+        <div class="cell"><i class="fa-brands fa-react"></i><span>React</span></div>
+      </div>
+    </section>
+
+    <!-- Testimony Section -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+      <div class="group">
+        <div class="person-details">
+          <img src="/assets/online-portfolio-768x600.jpg" alt="Laptop and workspace" />
+          <p><strong>Arun Raj</strong></p>
+          <p>Web Developer</p>
         </div>
-    </nav>
-    <main>
-        <!--SECTION1 HERO-->
-        <section class="hero-section">
-            <div class="text">
-                <h2>I'm Kavin</h2>
-                <p>I'm a Front-End Developer passionate about building clean and modern websites.
-                    I enjoy turning ideas into reality using HTML, CSS, JavaScript & React.
-                    Let’s build something awesome together! 🚀
-                </p>
-                <div class="links">
-                    <a href="#skills">
-                        <i class="fa-solid fa-code"></i>
-                        <span>Skills</span>
-                    </a>
-                    <a href="#testimony">
-                        <i class="fa-solid fa-pen"></i>
-                        <span>Testimony</span>
-                    </a>
-                    <a href="#contact">
-                        <i class="fa-solid fa-address-book"></i>
-                        <span>contact</span>
-                    </a>
-                </div>
-            </div>
-            <div class="headshot">
-                <img src="./assets/kavin.jpg" width="300" height="300" alt="kavin headshot">
-            </div>
-        </section>
-        <!--SECTION2 SKILLS-->
-        <section id="skills" class="skills-section">
-            <h2>Skills</h2>
-            <div class="text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquam perspiciatis aut! Debitis
-                    saepe nam corporis dolores perspiciatis libero quod obcaecati atque quasi modi, veniam iste totam
-                    numquam cupiditate autem.
-                </p>
-            </div>
-            <div class="cells">
-                <div class="cell">
-                    <i class="fa-brands fa-html5"></i>
-                    <span>HTML</span>
-                </div>
+        <div class="text">
+          <p>
+            Kavin helped me build our landing page in just 3 days.
+            His UI sense and mobile responsiveness were top-notch.
+            The final result exceeded my expectations — it looked clean on all devices,
+            and he even added extra animations without me asking.
+            I highly recommend him for any front-end development work.
+          </p>
+        </div>
+      </div>
+    </section>
 
-                <div class="cell">
-                    <i class="fa-brands fa-css"></i>
-                    <span>CSS</span>
-                </div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <div class="group">
+        <div class="text">
+          <p>
+            Whether you're looking for a passionate front-end developer to join your team,
+            need help building a website from scratch, or want to talk about web development,
+            I'm always open to meaningful conversations. You can reach out for freelance work,
+            internships, or collaborations. Let’s bring your ideas to life!
+          </p>
+        </div>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
 
-                <div class="cell">
-                    <i class="fa-brands fa-js"></i>
-                    <span>Javascript</span>
-                </div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
 
-                <div class="cell">
-                    <i class="fa-brands fa-node-js"></i>
-                    <span>Node.js</span>
-                </div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
 
-                <div class="cell">
-                    <i class="fa-brands fa-react"></i>
-                    <span>React</span>
-                </div>
-            </div>
-
-
-
-
-        </section>
-        <!--SECTION3 Testimony-->
-        <section id="testimony" class="testimony-section">
-            <h2>Testimony</h2>
-            <div class="group">
-                <div class="person-details">
-                    <img src="/assets/online-portfolio-768x600.jpg" alt="laptop">
-                    <p>Arun Raj</p>
-                    <p>Web Developer</p>
-                </div>
-                <div class="text">
-                    <p>Kavin helped me build our landing page in just 3 days.
-                        His UI sense and mobile responsiveness were top-notch.
-                        The final result exceeded my expectations — it looked clean on all devices,
-                        and he even added extra animations without me asking.
-                        I highly recommend him for any front-end development work
-                    </p>
-                </div>
-            </div>
-
-
-
-        </section>
-        <!--SECTION4 CONTACT-->
-        <section id="contact" class="contact-section">
-            <h2>
-                Contact
-            </h2>
-            <div class="group">
-                <div class="text">
-                    Whether you're looking for a passionate front-end developer to join your team,
-                    need help building a website from scratch, or simply want to talk about web development,
-                    I'm always open to meaningful conversations. I specialize in crafting clean,
-                    user-friendly interfaces with HTML, CSS, JavaScript, and React.
-                    You can reach out to me for freelance work, internships, or collaborative projects.
-                    Just drop a message—let's bring your ideas to life!
-                </div>
-
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name">
-
-                    <label for="email">/Email</label>
-                    <input type="email" id="email">
-
-                    <label for="message">Message</label>
-                    <textarea id="message" cols="30" rows="10"></textarea>
-
-                    <button class="submit">Send Message</button>
-
-
-                </form>
-            </div>
-        </section>
-    </main>
+          <button class="submit" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
