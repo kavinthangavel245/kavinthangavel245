@@ -16,13 +16,11 @@ Frontend Developer | MERN Stack Enthusiast | DevOps Learner 🇮🇳
 
 ---
 
-
----
-
 ### 🌐 Portfolio
 🚀 Check out my live portfolio:  
 👉 [kavin-portfolio](https://portfolio-eta-one-65.vercel.app/)
 
+---
 ### 🤝 Connect with Me
 <p align="left">
   <a href="https://linkedin.com/in/kavint2452000" target="_blank">
