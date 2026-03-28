@@ -16,6 +16,15 @@ Frontend Developer | MERN Stack Enthusiast | DevOps Learner 🇮🇳
 
 ---
 
+
+### 🌐 Portfolio
+
+<p align="center">
+  <a href="https://portfolio-eta-one-65.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Portfolio-%2300C7B7?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</p>
+
 ### 🤝 Connect with Me
 <p align="left">
   <a href="https://linkedin.com/in/kavint2452000" target="_blank">
