@@ -293,7 +293,7 @@ A modern portfolio showcasing my projects, skills, GitHub activity, and contact 
 
 <p>
 
-> **Create `.github/workflows/snake.yml` to enable the snake animation.**
+
 
 </p>
 
